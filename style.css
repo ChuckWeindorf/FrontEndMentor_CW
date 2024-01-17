@@ -1,0 +1,95 @@
+.container
+        {
+        display: flex;
+        flex-wrap: wrap;
+        }
+
+.child 
+        {
+        width: 310px;
+        height: 500px;
+        }
+
+#child1 
+        {
+        background-color: hsl(31, 77%, 52%);
+        @media screen and (min-width: 963px) {border-radius: 10px 0px 0px 10px};
+        @media screen and (min-width: 653px) and (max-width: 962px) {border-radius: 10px 0px 0px 0px};
+        @media screen and (max-width: 652px) {border-radius: 10px 10px 0px 0px};
+        }
+
+
+#child2 {
+        background-color: hsl(184, 100%, 22%);
+        @media screen and (min-width: 653px) and (max-width: 962px) {border-radius: 0px 10px 10px 0px};
+        }
+
+#child3 {   
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0px 10px 10px 0px;
+        @media screen and (min-width: 963px) {border-radius: 0px 10px 10px 0px};
+        @media screen and (min-width: 653px) and (max-width: 962px) {border-radius: 0px 0px 10px 10px};
+        @media screen and (max-width: 652px) {border-radius: 0px 0px 10px 10px};
+        }
+
+.innerdiv
+        {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        }
+
+.cwhead 
+        {
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-size: 40px;
+        color: hsl(0, 0%, 95%);
+        font-weight: 700;
+        }
+
+.cwbody 
+        {
+        margin-top: 0px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 25px;
+        color: hsla(0, 0%, 100%, 0.75)
+        }
+
+.cssbutton 
+        {
+        font-family: 'Lexend Deca', sans-serif;
+        margin-top:70px;
+        font-size: 15px;
+        border:0;
+        width: 150px;
+        height:45px;
+        border-radius: 25px;
+        }
+
+#button1 
+        {
+        color:hsl(31, 77%, 52%);
+        } 
+
+#button2 
+        {
+        color:hsl(184, 100%, 22%);
+        }
+#button3 
+        {
+        color:hsl(179, 100%, 13%);
+        }
+
+footer 
+        {
+        position:relative;
+        bottom:0px;
+        font-size: 1rem;
+        }
+
+.attribution a 
+        {
+        color: hsl(228, 45%, 44%); 
+        }
