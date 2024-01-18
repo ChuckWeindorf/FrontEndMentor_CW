@@ -26,10 +26,8 @@
 
 #child3 {   
         background-color: hsl(179, 100%, 13%);
-        border-radius: 0px 10px 10px 0px;
         @media screen and (min-width: 963px) {border-radius: 0px 10px 10px 0px};
-        @media screen and (min-width: 653px) and (max-width: 962px) {border-radius: 0px 0px 10px 10px};
-        @media screen and (max-width: 652px) {border-radius: 0px 0px 10px 10px};
+        @media screen and (max-width: 962px) {border-radius: 0px 0px 10px 10px};
         }
 
 .innerdiv
