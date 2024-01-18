@@ -10,24 +10,31 @@
         height: 500px;
         }
 
+@media screen and (min-width: 963px) {
+        #child1 {border-radius: 10px 0px 0px 10px}
+        #child2 {border-radius: 0px 0px 0px 0px}
+        #child3 {border-radius: 0px 10px 10px 0px}}
+
+@media screen and (min-width: 653px) and (max-width: 962px) {
+        #child1 {border-radius: 10px 0px 0px 0px}
+        #child2 {border-radius: 0px 10px 10px 0px}
+        #child3 {border-radius: 0px 0px 10px 10px};}
+
+@media screen and (max-width: 652px){
+        #child1 {border-radius: 10px 10px 0px 0px}
+        #child2 {border-radius: 0px 0px 0px 0px}
+        #child3 {border-radius: 0px 0px 10px 10px}}
+
 #child1 
         {
         background-color: hsl(31, 77%, 52%);
-        @media screen and (min-width: 963px) {border-radius: 10px 0px 0px 10px};
-        @media screen and (min-width: 653px) and (max-width: 962px) {border-radius: 10px 0px 0px 0px};
-        @media screen and (max-width: 652px) {border-radius: 10px 10px 0px 0px};
         }
-
-
 #child2 {
         background-color: hsl(184, 100%, 22%);
-        @media screen and (min-width: 653px) and (max-width: 962px) {border-radius: 0px 10px 10px 0px};
         }
 
 #child3 {   
         background-color: hsl(179, 100%, 13%);
-        @media screen and (min-width: 963px) {border-radius: 0px 10px 10px 0px};
-        @media screen and (max-width: 962px) {border-radius: 0px 0px 10px 10px};
         }
 
 .innerdiv
